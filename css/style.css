@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+
+.centerbox{margin: 0 auto; max-width: 1048px;}
+
+.light{font-weight: lighter;}
+.bold{font-weight: bold;}
+
+.wrap{max-width: 1920px; position: relative; margin: 0 auto;}  /* !! poa기준1 !! */
+
+header{max-width: 1060px; margin: 0 auto;}
+header .hd1{display: flex; justify-content: space-between; margin-top: 15px;}
+header .hd1 span.sns{border: 1px solid #D0D0D0; padding:4px 3px 6px 8px; border-radius: 8px; font-size: 15px; display: flex; align-items: center;}
+header .hd1 span.sns::after{content: ''; display: inline-block; width:13px; height: 13px; margin-left:4px; margin-bottom: -4px; background-image: url(../img/chevronRightHeader.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;}
+header .hd1 > ul{display: flex; gap: 20px; font-size: 15px; }
+header .hd2{max-width: 1060px; text-align: center; margin:1px 0 47px;}
+header .hd2 > img{width: 142px;}
+header .hd3 .gnb{display: flex; justify-content: space-between; font-size: 18px; }
+
+header .hd3 .gnb > .lnbbgbox{position: absolute; width:100%; height: 310px; z-index: 2; left: 0; top: 181px;}
+
+header .hd3 .gnb > li{position: relative;}  /* !! poa기준2 !! */
+header .hd3 .gnb > li > a{display: inline-block; padding:0 30px 20px; transition: 0.3s;}
+header .hd3 .gnb > li:first-child > a{padding-left: 0;}
+
+header .hd3 .gnb > li > .lnb{position: absolute; top: 25px; left: 0; z-index: 5; height: 0; overflow: hidden; transition: 0.3s; display: flex; flex-direction: column; width: 100%;}
+header .hd3 .gnb > li > .lnb > li > a{font-size: 15px; padding-top:10px; display: inline-block; width: 100%; transition: 0.3s;}
+header .hd3 .gnb > li > .lnb > li:first-child{margin-top: 20px;}
+
+header .hd3 .gnb:hover > li > .lnb{height: 290px; transition: 0.3s;}
+header .hd3 .gnb:hover > .lnbbgbox{height: 290px; transition: 0.3s; background: #fff;}
+header .hd3 .gnb:hover  li  a{color: #555;}
+header .hd3 .gnb > li:hover > a{color: orangered; transition: 0.3s; border-bottom: 1px solid orangered;} 
+header .hd3 .gnb > li > .lnb > li:hover > a{color: #000; transition: 0.3s;}
+
+.hero{position: relative; max-width: 1920px; margin: 0 auto;}
+.hero img{max-width: 1920px;}
+.hero .searchbox{max-width: 1030px; width: 80%; margin-left: auto; margin-right: auto; border: 1px solid rgba(255, 244, 244, 0.8); border-radius: 50px; background: rgba(255, 244, 244, 0.2); backdrop-filter: blur(4px); display: flex; align-items: center; position: absolute; top: 21%; left:23%;
+padding: 20px 50px;}
+.hero .searchbox > input{flex-grow: 1; border: none; outline: none; background: transparent; font-size: 30px; color:#333;  line-height: normal;
+  &::placeholder{color:rgba(255, 244, 244, 0.7);}
+}
+.hero .searchbox > button{border: none; background: transparent; cursor: pointer; margin-left: 15px; width: 40px;}   
+
+
+
+section:first-child{margin-top: 150px;}
+section{margin-top: 120px;}
+section:last-child{margin-bottom: 150px;}
+
+.section1{}
+.section1 .mains1-1{max-width: 297px;}
+.section1 > .mains1-1 > .s1title{font-size: 22px; font-weight: 600; display: flex; align-items: center; justify-content: space-between; padding-bottom: 8px;}
+.section1 > .mains1-1 > .s1title::after{content: ''; display: inline-block; width: 26px; height: 26px; background: url(../img/arrowRight.png); background-size: cover;}
+.section1 .mains1-1 .line{display: flex; justify-content: space-between; align-items: end; margin-top: 15px;}
+.section1 .mains1-1 .lineLeft{display: flex; flex-direction: column;}
+.section1 .mains1-1 .lineLeft .divide{font-size: 12px; color: #333;}
+
