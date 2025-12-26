@@ -22,7 +22,7 @@
           <!-- 반응형하며 hd2안에 span.reactHamburger 추가함 -->
 
           <div class="hd3">
-            <ul class="gnb">
+            <ul class="gnb subpage">
               <li><a href="gnb1-1.html">자료검색</a>
                   <ul class="lnb">
                       <li><a href="lnb1-1.html">자료검색</a></li>
@@ -43,7 +43,7 @@
                       <li><a href="lnb2-7.html">장애인서비스</a></li>
                   </ul>
               </li>
-              <li><a href="lnb3-1.html">독서마당</a>
+              <li class="present_gnb"><a href="lnb3-1.html">독서마당</a>
                   <ul class="lnb">
                       <li><a href="lnb3-1.html">추천도서</a></li>
                       <li><a href="lnb3-2.html">도서공감</a></li>
@@ -105,10 +105,42 @@
       </header>
   
       <div class="hero">
-        <img src="img/main/hero.jpg" alt="메인이미지">
+        <img src="img/sub/sub_hero.jpg" alt="메인이미지">
       </div>
-  
-  
+
+      
+        <ul class="lnb_sibling">
+            <li class="present_lnb"><a href="#">추천도서</a></li>
+            <li><a href="#">독서공감</a></li>
+            <li><a href="#">발간 / 특화자료</a></li>
+            <li><a href="#">올해의 책 함께 읽기</a></li>
+            <li><a href="#">독서동아리</a></li>
+        </ul>
+    
+        <div class="page_name">사서 추천도서<figure><img src="img/chevronRightHeader.jpg" alt=""></figure></div>
+        <form action="#">
+            <select name="" id="standard">
+                <option value="">최신순</option>
+                <option value="">장르별</option>
+            </select>
+        </form>
+
+        <ul class="contentList">
+            <li>
+                <a href="#"><img src="img/sub/book1.png" alt=""></a>
+                <div class="BinfoSet">
+                    <div class="Binfo1"><span>2025-12</span><span>인문</span></div>
+                    <div class="Binfo2">단단한 행복 : 아리스토텔레스에게 배우는 행복에 관한 철학 수업</div>
+                    <div class="Binfo3">
+                        <div class="line"><span class="Dname">지은이</span><span class="cont">양현길</span></div>
+                        <div class="line"><span class="Dname">출판사</span><span class="cont">유노책주</span></div>
+                        <div class="line"><span class="Dname">발행년</span><span class="cont">2025</span></div>
+                        <div class="line"><span class="Dname">청구기호</span><span class="cont">160.24-25-1</span></div>
+                    </div>
+                </div>
+                
+            </li>
+        </ul>
  
 
       <footer>

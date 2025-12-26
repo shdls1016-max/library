@@ -218,3 +218,27 @@ position: relative; bottom: 0; right: 0;}
 .section4 .grid > li:nth-child(5) a{background: rgba(0, 0, 0, 0.4); color: #fff;}
 
 }
+
+
+
+/* --------------------------sub page ----------------------- */
+.subpage > li > a{color: #5A6169;}
+li.present_gnb > a{color: #000;}
+.lnb_sibling{display: flex; margin-top: 47px; margin-bottom: 150px;}
+.lnb_sibling > li{display: inline-block; background: #5F4E41; /* padding-right: 67px; */ padding: 19px 67px 17px 0; border: 1px solid #000;}
+.lnb_sibling > li > a{color:#CFCAC6;}
+.lnb_sibling > li:first-child{padding-left: 160px;}
+.lnb_sibling > li:last-child{padding-right:50px;}
+ul.lnb_sibling > li.present_lnb{border: 1px solid red;}
+ul.lnb_sibling > li.present_lnb > a{color:#fff;  border: 1px solid #000;}
+/* header .hd3 .gnb.subpage > li.present_gnb > ul.lnb > li > a.present_lnb {color: red; border: 1px solid red !important;} */
+
+.page_name{font-size: 30px; letter-spacing: -6%; display: flex; margin-left: 171px; border: 1px solid #000;}
+.page_name > figure > img{width: 29px; margin-top: 8px; margin-left: 10px;}
+
+.contentList li{display: flex;}
+.contentList li img{width: 150px;}
+.contentList li .BinfoSet{display: flex; flex-direction: column; border: 1px solid red;}
+.Binfo1{border: 1px solid forestgreen;}
+.Binfo2{border: 1px solid pink;}
+.Binfo3{border: 1px solid violet;}
